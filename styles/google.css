@@ -22,16 +22,15 @@
 
 #nav ul {
   list-style-type: none;
-  margin-right: 8px;
-
+  margin-right: 98px;
 }
 
 #nav li {
   display: inline;
-  padding: 18px 8px 10px 12px;
+  padding: 18px 6px 10px 12px;
   float: right;
   margin-top: -20px;
-  font-size: 13px;
+  font-size: 13.25px;
   line-height: 8px;
 }
 
@@ -44,23 +43,31 @@
   text-decoration: underline;
 }
 
-#blue_button li {
-  background: -webkit-linear-gradient(top,#4387fd,#4683ea);
-  border-radius: 3px;
-  margin-top: -12px;
- margin-left: 16px;
- width: 52px;
+#button {
+    border-radius: 2px;
+    position: absolute;
+    text-align: center;
+    width: 70px;
+    height: 30px;
+    right: 10px ;
+    top: 04px;
+    line-height: 30px;
+    background-color: #4386FB;
+    color: #FFF;
+    
 }
 
-#blue_button a {
+#button a {
   text-decoration: none;
     font-weight: bold;
     color: #fff;
+    border-radius: 2px;
+    font-size: 13.5px;
 }
 
 #nav li img {
-  height:20px;
-  width: 20px;
+  height:18px;
+  width: 18px;
   margin-top: -5px;
 }
 
@@ -122,11 +129,11 @@
 /*-----------------------footer----------------*/
 
 .footer {
-  position: absolute;
+  position: fixed;
   text-align: center;
   height: 40px;
   width: 102%;
-  bottom:-13.5%;
+  bottom:0;
   border-top: #E4E4E4 solid 1px;
   font-size: 13.5px;
   margin-left: -1.25%;
